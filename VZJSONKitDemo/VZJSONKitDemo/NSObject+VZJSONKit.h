@@ -65,4 +65,8 @@
 
 +(NSArray *)modelPropertyWhiteList;
 
+-(BOOL)modelCustomTransformFromDictionary:(NSDictionary *)dict;
+
+-(BOOL)modelCustomTransformToDictionary:(NSMutableDictionary *)dit;
+
 @end
