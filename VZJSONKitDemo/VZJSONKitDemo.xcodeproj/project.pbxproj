@@ -16,6 +16,7 @@
 		5755FE061C08AA840051C515 /* VZJSONKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5755FE051C08AA840051C515 /* VZJSONKitDemoTests.m */; };
 		5755FE111C08AA840051C515 /* VZJSONKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5755FE101C08AA840051C515 /* VZJSONKitDemoUITests.m */; };
 		576F09411C0B102E006F4C13 /* NSObject+VZJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F09401C0B102E006F4C13 /* NSObject+VZJSONKit.m */; };
+		576F09721C0DF007006F4C13 /* VZClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F09711C0DF007006F4C13 /* VZClassInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		5755FE121C08AA840051C515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		576F093F1C0B102E006F4C13 /* NSObject+VZJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+VZJSONKit.h"; sourceTree = "<group>"; };
 		576F09401C0B102E006F4C13 /* NSObject+VZJSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VZJSONKit.m"; sourceTree = "<group>"; };
+		576F09701C0DF007006F4C13 /* VZClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZClassInfo.h; sourceTree = "<group>"; };
+		576F09711C0DF007006F4C13 /* VZClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZClassInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,8 @@
 		576F09441C0B1055006F4C13 /* VZJSONKit */ = {
 			isa = PBXGroup;
 			children = (
+				576F09701C0DF007006F4C13 /* VZClassInfo.h */,
+				576F09711C0DF007006F4C13 /* VZClassInfo.m */,
 				576F093F1C0B102E006F4C13 /* NSObject+VZJSONKit.h */,
 				576F09401C0B102E006F4C13 /* NSObject+VZJSONKit.m */,
 			);
@@ -287,6 +292,7 @@
 				5755FDF31C08AA840051C515 /* ViewController.m in Sources */,
 				5755FDF01C08AA840051C515 /* AppDelegate.m in Sources */,
 				5755FDED1C08AA840051C515 /* main.m in Sources */,
+				576F09721C0DF007006F4C13 /* VZClassInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
